@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 	<head>
+		<script src="script.js"></script>
 		<link rel="stylesheet" href ="stylesheet.css">
 		<meta charset="utf-8">
 		<title>Gear</title>
@@ -8,8 +9,8 @@
 	<body>
 		<header>
 			<h1>W O L F R A M</h1>
-			<img id="logo" src="fenrir.jpg"/>
-			<img id="logob" src="fenrir.jpg"/>
+			<img id="logo" src="pictures/fenrir.jpg"/>
+			<img id="logob" src="pictures/fenrir.jpg"/>
 		</header>
 		<nav>
 			<div id="links">
@@ -27,15 +28,20 @@
 		From the make and model of the instruments they use down to the strings and drumsticks</p>
 		<div class="band">
 			<h2 id="john">John Abraham<h2>
+			
 			<div>
 				<h4>Guitars</h4>
-				<h5 style="text-indent: 20px;">Schecter Damine Elite</h5>
-				<p id="band">John primarily uses his Schecter Damien Elite 7-string, 
-				which has active EMG 81 and 85 <br> (bridge and nexk respectively), and a floyd rose special tremolo bridge.</p>
+				<button onclick="myFunction()" id="expand">+</button>
+				<div style="display:none;" id="hidden">
+					<h5 style="text-indent: 20px;">Schecter Damine Elite</h5>
+					<img id="schecter" src="pictures/schecter.jpg"/>
+					<p id="bandj">John primarily uses his Schecter Damien Elite 7-string,<br>
+					which has active EMG 81 and 85 (bridge and neck respectively),<br> and a floyd rose special tremolo bridge.</p>
+				</div>
 				<h4>Amplifiers<h4>
 				<h5 style="text-indent: 20px;">Peavey Triple XXX Head</h5>
-				<img src="peavey.jpg">
-				<p id="band">The Triple X is the main amplifier used for the band. This 3 channel amp boasts 3 12ax7 preamp tubes<br> and 4 kt77 poweramp tubes.</p>
+				<img src="pictures/peavey.jpg">
+				<p id="band">The Triple X is the main amplifier used for the band.<br> This 120-watt, 3 channel amp, boasts 3 12ax7 preamp tubes<br> and 4 kt77 poweramp tubes.</p>
 			</div>
 		
 			<h2 id="alex">Alex "Linkler" Jephries</h2>
@@ -43,6 +49,9 @@
 			<h2 id="ragnar">Ragnar "Rangar" Ragnar</h2>
 		
 			<h2 id="tim">Tim</h2>
+			<div>
+				<p>There are some who call me... Tim...</p>
+			</div>
 		</div>
 		<footer>
 			<p>©Wolfram Records Incorporated, 2015-2016, Wolfram© is a registered trademark.</p>

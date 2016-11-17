@@ -39,7 +39,6 @@ h1:first-child {
 
 #links {
 	z-index: 0;
-	display: inline-block
 	width: 100px;
 	height: 500px;
 }
@@ -98,7 +97,7 @@ th, td {
 
 footer {
 	position: fixed;
-	padding: 15px;
+	padding: 8px;
 	display: block;
 	background-color: black;
 	bottom: 0px;
@@ -115,7 +114,10 @@ footer {
 	background-color: white;
 	text-align: center;
 	margin: auto;
-	height: 25%;
+	height: 10%;
+	bottom: 140px;
+	float: center;
+	position: relative;
 }
 
 #about {
@@ -154,4 +156,82 @@ body {
 	padding: 0px 0px 10px 10px;
 	position: relative;
 	text-indent: 20px;
+}
+
+#bandj {
+	float: right;
+	right: 350px;
+	font-weight: normal;
+	color: black;
+	background-color: white;
+	padding: 0px 0px 10px 10px;
+	position: relative;
+	text-indent: 20px;
+}
+
+#schecter {
+	margin: auto;
+	position: relative;
+	height: 300px;
+	width: 150px;
+}
+
+
+#search {
+	overflow: hidden;
+	background-color: gray;
+	border: 1px solid black;
+	display: inline-block;
+	position: relative;
+	bottom: 420px;
+	width: 240px;
+	height: 40px;
+	float: right;
+	padding: 10px 100px 5px 10px;
+	border-radius: 20px;
+	box-shadow: 0 1px 3px rgba(0, 0, 0, 0.25) inset, 0 1px 0 rgba(255, 255, 255, 1);
+}
+
+#searchbar {
+	margin: auto;
+	position: relative;
+	float: right;
+	left: 50px;
+}
+#submit {
+	left: 45px;
+	position: relative;
+	float: right;
+}
+
+#expand {
+	background-color: white;
+    border: 1px dashed black;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+	position: relative;
+	right: 28px;
+	bottom: 62px;
+}
+
+#oops {
+	position: relative;
+	z-index: -1;
+	bottom: 450px;
+}
+
+#oopss {
+	position: relative;
+	left: 400px;
+	text-indent: 20px;
+}
+
+#where {
+	font-family: ariel;
+	font-size: 60px;
+	position: relative;
+	text-align: center;
+	color: black;
 }
